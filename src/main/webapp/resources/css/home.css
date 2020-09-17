@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+	@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);	
+	
+	#logo {
+		width: 10vw;
+		position: absolute;
+		top: 15%;
+		left: 50%;
+		transform: translateX(-43%);	
+	}
+	
+	#loginbox {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+	}
+	
+	.login {
+		height: 40px;
+	}
+
+	.logintext {
+		height: 35px;
+		width: 250px;
+		background-color: #DAE3F3;
+		border: 0px;
+		font-family: 'Noto Sans KR', sans-serif;
+	}
+	
+	#btLogin {
+		width: 250px;
+		height: 40px;
+		background-color: #2F5597;
+		border: 0px;		
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size: 17px;
+		color: white;
+	}
+	
+	.col1 {
+		width: 45px;
+		font-family: 'Noto Sans KR', sans-serif;
+	}
+	
+	.col2 {
+		height: 30px;
+		text-align: center;
+	}
+	
+	#findpwd {
+		font-family: 'Noto Sans KR', sans-serif;
+		color: CCCCCC;
+		text-decoration: none;
+	}
